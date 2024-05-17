@@ -1,0 +1,27 @@
+.rating-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.rating-bar {
+    height: 20px;
+    background-color: #e4e5e9;
+    width: 100%;
+    position: relative;
+}
+
+.rating-bar-fill {
+    height: 100%;
+    background-color: #ffc107;
+    width: 84.8%;
+    /* Средний рейтинг 4.24, умноженный на 20 */
+}
+
+.rating-stars {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
