@@ -17,7 +17,8 @@
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="img/logo.jpeg" alt="Logo" width="86" height="54" class="d-inline-block align-text-center rounded-circle">
+                <img src="img/logo.jpeg" alt="Logo" width="86" height="54"
+                    class="d-inline-block align-text-center rounded-circle">
                 SmartTime
             </a>
             <a class="navbar-brand" href="index.html">Главная</a>
@@ -27,42 +28,42 @@
             <a class="navbar-brand" href="reviews.html">Войти</a>
         </div>
     </nav>
-    <section class="text-white bg-dark text-center p-5">
+    <section class="text-white bg-dark text-center p-3">
         <div class="container">
             <h1 class="display-4"><strong>Регистрация в SmartTime</strong></h1>
             <p class="lead p-2">Присоединяйтесь к сообществу SmartTime и откройте для себя новые возможности умных
                 часов. Зарегистрируйтесь сейчас и начните путь к инновациям!</p>
         </div>
-        <div class="row g-3">
-            <form action="#" method="POST">
-                <div class="row g-3 align-items-center">
-                    <label for="fullname" class="text-secondary">Полное имя:</label>
-                    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+    </section>
+    <section class="text-white bg-dark text-center p-4">
+        <div class="login-container">
+            <form action="#" method="POST"
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <div class="form-group">
+                    <label for="fullname" class="text-white">Полное имя:</label>
+                    <input type="password" class="form-control bg-secondary text-white"
+                        aria-describedby="passwordHelpInline">
                 </div>
                 <div class="form-group">
-                    <label for="new-email" class="text-secondary">Email:</label>
+                    <label for="new-email" class="text-white">Email:</label>
                     <input type="email" class="form-control bg-secondary text-white" id="new-email" name="email"
                         required>
                 </div>
                 <div class="form-group">
-                    <label for="new-password" class="text-secondary">Пароль:</label>
+                    <label for="new-password" class="text-white">Пароль:</label>
                     <input type="password" class="form-control bg-secondary text-white" id="new-password"
                         name="password" required>
                 </div>
                 <div class="form-group">
-                    <label for="confirm-password" class="text-secondary">Подтвердите пароль:</label>
+                    <label for="confirm-password" class="text-white">Подтвердите пароль:</label>
                     <input type="password" class="form-control bg-secondary text-white" id="confirm-password"
                         name="confirm-password" required>
                 </div>
                 <div class="form-group p-3">
-                    <button type="submit" class="btn btn-light">Зарегистрироваться</button>
+                    <button type="submit" class="btn btn-light bg-dark text-white">Зарегистрироваться</button>
                 </div>
-                <div class="row g-3 align-items-center">
-                    <div class="col-auto">
-                        <label for="inputPassword6" class="col-form-label">Password</label>
-                    </div>
-                </div>
-                
+
+
             </form>
         </div>
     </section>
